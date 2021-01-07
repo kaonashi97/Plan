@@ -24,6 +24,9 @@ package com.djrapitops.plan.delivery.web.resolver.exception;
  * @author Rsl1122
  */
 public class NotFoundException extends IllegalArgumentException {
+
+    private static final long serialVersionUID = 1L;
+
     public NotFoundException(String message) {
         super(message);
     }

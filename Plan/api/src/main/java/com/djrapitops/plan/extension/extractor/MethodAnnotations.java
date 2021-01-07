@@ -57,6 +57,7 @@ public class MethodAnnotations {
         byAnnotationType.put(annotationClass, methods);
     }
 
+    @SuppressWarnings("unchecked")
     public <T extends Annotation> Map<Method, T> getMethodAnnotations(Class<T> ofType) {
         return (Map<Method, T>) byAnnotationType.getOrDefault(ofType, new HashMap<>());
     }

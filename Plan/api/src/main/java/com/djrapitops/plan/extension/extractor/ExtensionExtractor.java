@@ -148,7 +148,7 @@ public final class ExtensionExtractor {
         }
     }
 
-    private void validateMethodArguments(Method method, boolean parameterIsRequired, Class... parameterOptions) {
+    private void validateMethodArguments(Method method, boolean parameterIsRequired, Class<?>... parameterOptions) {
         Class<?>[] parameterTypes = method.getParameterTypes();
 
         // Possible parameters for the methods:

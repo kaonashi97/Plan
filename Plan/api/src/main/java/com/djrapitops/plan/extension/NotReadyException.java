@@ -27,6 +27,8 @@ package com.djrapitops.plan.extension;
  */
 public class NotReadyException extends IllegalStateException {
 
+    private static final long serialVersionUID = 1L;
+
     /**
      * Construct the exception.
      * <p>

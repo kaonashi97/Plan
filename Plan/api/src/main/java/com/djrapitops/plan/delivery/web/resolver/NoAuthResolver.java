@@ -27,6 +27,7 @@ import java.util.Optional;
  */
 public interface NoAuthResolver extends Resolver {
 
+    @Override
     default boolean canAccess(Request request) {
         return true;
     }
@@ -38,6 +39,7 @@ public interface NoAuthResolver extends Resolver {
      * @return Response or empty if the response should be 404 (not found).
      * @see Response for return value
      */
+    @Override
     Optional<Response> resolve(Request request);
 
     @Override
