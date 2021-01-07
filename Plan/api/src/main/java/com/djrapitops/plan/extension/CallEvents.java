@@ -61,5 +61,4 @@ public enum CallEvents {
      * Method calls are asynchronous.
      */
     SERVER_PERIODICAL
-
 }

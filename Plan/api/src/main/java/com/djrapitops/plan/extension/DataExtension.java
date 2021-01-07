@@ -89,5 +89,4 @@ public interface DataExtension {
                 CallEvents.SERVER_EXTENSION_REGISTER
         };
     }
-
 }

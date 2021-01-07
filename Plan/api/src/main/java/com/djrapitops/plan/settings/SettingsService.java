@@ -76,5 +76,4 @@ public interface SettingsService {
             Holder.service.set(service);
         }
     }
-
 }

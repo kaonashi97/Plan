@@ -40,5 +40,4 @@ public @interface Tab {
      * @return Tab name, limited to 50 characters.
      */
     String value();
-
 }

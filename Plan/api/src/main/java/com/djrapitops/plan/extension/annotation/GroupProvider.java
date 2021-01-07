@@ -76,5 +76,4 @@ public @interface GroupProvider {
      * @return Family that matches an icon, if there is no icon for this family no icon is shown.
      */
     Family iconFamily() default Family.SOLID;
-
 }

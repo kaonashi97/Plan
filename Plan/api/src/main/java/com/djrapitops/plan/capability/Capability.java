@@ -91,5 +91,4 @@ enum Capability {
             return Optional.empty();
         }
     }
-
 }

@@ -31,5 +31,4 @@ package com.djrapitops.plan.extension;
 public interface Group {
 
     String getGroupName();
-
 }

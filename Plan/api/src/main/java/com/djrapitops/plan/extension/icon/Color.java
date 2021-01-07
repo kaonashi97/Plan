@@ -56,4 +56,5 @@ public enum Color {
         } catch (IllegalArgumentException e) {
             return Optional.empty();
         }
-    }}
+    }
+}

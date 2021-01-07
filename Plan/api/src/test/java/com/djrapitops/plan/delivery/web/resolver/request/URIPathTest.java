@@ -164,5 +164,4 @@ class URIPathTest {
         String result = URIPath.removePartsBefore(test, 1);
         assertEquals(expected, result);
     }
-
 }

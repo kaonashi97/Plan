@@ -279,5 +279,4 @@ class ExtensionExtractorTest {
         ExtensionExtractor underTest = new ExtensionExtractor(new Extension());
         assertEquals("Extension.method has too many parameters, only one of [class java.util.UUID, class java.lang.String, interface com.djrapitops.plan.extension.Group] is required as a parameter.", assertThrows(IllegalArgumentException.class, underTest::validateAnnotations).getMessage());
     }
-
 }

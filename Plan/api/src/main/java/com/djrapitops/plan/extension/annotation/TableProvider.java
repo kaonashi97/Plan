@@ -45,5 +45,4 @@ public @interface TableProvider {
      * @return Preferred color. If none are specified defaults are used.
      */
     Color tableColor() default Color.NONE;
-
 }

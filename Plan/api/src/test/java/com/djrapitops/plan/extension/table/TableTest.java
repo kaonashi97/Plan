@@ -57,5 +57,4 @@ class TableTest {
         }
         assertEquals(expected.size(), result.size());
     }
-
 }

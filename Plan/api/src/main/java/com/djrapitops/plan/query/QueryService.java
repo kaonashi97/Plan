@@ -160,5 +160,4 @@ public interface QueryService {
             Holder.service.set(service);
         }
     }
-
 }

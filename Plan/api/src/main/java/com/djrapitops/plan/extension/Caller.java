@@ -46,5 +46,4 @@ public interface Caller {
      * Server methods have no parameters or {@link Group} method parameter and a Provider annotation.
      */
     void updateServerData();
-
 }

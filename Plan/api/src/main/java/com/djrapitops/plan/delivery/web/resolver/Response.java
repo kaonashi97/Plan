@@ -66,5 +66,4 @@ public final class Response {
     public boolean isErrorResponse() {
         return code >= 400;
     }
-
 }

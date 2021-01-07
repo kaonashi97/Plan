@@ -44,7 +44,5 @@ public @interface InvalidateMethod {
     @interface Multiple {
 
         InvalidateMethod[] value();
-
     }
-
 }

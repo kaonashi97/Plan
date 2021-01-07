@@ -51,4 +51,5 @@ public enum FormatType {
         } catch (IllegalArgumentException e) {
             return Optional.empty();
         }
-    }}
+    }
+}

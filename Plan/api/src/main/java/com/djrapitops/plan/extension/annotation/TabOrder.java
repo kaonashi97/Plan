@@ -41,5 +41,4 @@ public @interface TabOrder {
      * @return Names of the defined tabs (case sensitive).
      */
     String[] value();
-
 }
