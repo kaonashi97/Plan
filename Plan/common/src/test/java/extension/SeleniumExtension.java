@@ -75,9 +75,8 @@ public class SeleniumExtension implements ParameterResolver, BeforeAllCallback, 
             chromeOptions.setCapability(SUPPORTS_JAVASCRIPT, true);
 
             return new ChromeDriver(chromeOptions);
-        } else {
-            return new ChromeDriver();
         }
+        return new ChromeDriver();
     }
 
     private String getChromeDriverLocation() {

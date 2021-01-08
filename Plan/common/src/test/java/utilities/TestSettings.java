@@ -43,10 +43,9 @@ public class TestSettings {
         try {
             if (!config.contains(setting.getPath())) {
                 return Optional.of("Did not contain " + setting.getPath());
-            } else {
-                config.get(setting);
-                return Optional.empty();
             }
+            config.get(setting);
+            return Optional.empty();
         } catch (IllegalStateException validationFailed) {
             return Optional.of(validationFailed.getMessage());
         }
