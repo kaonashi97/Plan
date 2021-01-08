@@ -54,6 +54,7 @@ public interface Parameters {
             this.serverUUID = serverUUID;
         }
 
+        @Override
         public UUID getServerUUID() {
             return serverUUID;
         }
@@ -80,6 +81,7 @@ public interface Parameters {
             this.playerName = playerName;
         }
 
+        @Override
         public UUID getServerUUID() {
             return serverUUID;
         }
@@ -94,9 +96,8 @@ public interface Parameters {
             Class<?> parameterType = method.getParameterTypes()[0];
             if (UUID.class.equals(parameterType)) {
                 return method.invoke(extension, playerUUID);
-            } else {
-                return method.invoke(extension, playerName);
             }
+            return method.invoke(extension, playerName);
         }
 
         @Override
@@ -114,6 +115,7 @@ public interface Parameters {
             this.groupName = groupName;
         }
 
+        @Override
         public UUID getServerUUID() {
             return serverUUID;
         }

@@ -33,6 +33,7 @@ public class ExtensionDoubleData implements DescribedExtensionData {
         this.value = value;
     }
 
+    @Override
     public ExtensionDescriptive getDescriptive() {
         return descriptive;
     }

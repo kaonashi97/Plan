@@ -31,6 +31,7 @@ public class ExtensionBooleanData implements DescribedExtensionData {
         this.value = value;
     }
 
+    @Override
     public ExtensionDescriptive getDescriptive() {
         return descriptive;
     }
