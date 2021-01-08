@@ -37,5 +37,4 @@ public interface BanData {
      * @return UUIDs from the collection uuids that are banned.
      */
     Collection<UUID> filterBanned(Collection<UUID> uuids);
-
 }

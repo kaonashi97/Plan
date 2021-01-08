@@ -74,5 +74,4 @@ public abstract class DateFormatter implements Formatter<Long> {
         }
         return format;
     }
-
 }

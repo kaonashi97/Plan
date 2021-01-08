@@ -53,5 +53,4 @@ public enum DataID {
     public String of(UUID serverUUID) {
         return name() + '-' + serverUUID;
     }
-
 }

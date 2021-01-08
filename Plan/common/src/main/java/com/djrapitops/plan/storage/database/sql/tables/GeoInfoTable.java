@@ -68,5 +68,4 @@ public class GeoInfoTable {
                 .column(LAST_USED, Sql.LONG).notNull().defaultValue("0")
                 .toString();
     }
-
 }

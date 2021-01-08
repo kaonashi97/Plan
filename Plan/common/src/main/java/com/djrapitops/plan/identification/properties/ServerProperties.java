@@ -77,5 +77,4 @@ public class ServerProperties {
     public int getMaxPlayers() {
         return maxPlayers;
     }
-
 }

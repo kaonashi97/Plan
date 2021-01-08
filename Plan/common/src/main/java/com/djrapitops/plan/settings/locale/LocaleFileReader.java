@@ -53,5 +53,4 @@ public class LocaleFileReader {
 
         return locale;
     }
-
 }

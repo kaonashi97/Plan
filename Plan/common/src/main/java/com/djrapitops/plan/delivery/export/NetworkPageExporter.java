@@ -239,5 +239,4 @@ public class NetworkPageExporter extends FileExporter {
     private String toNonRelativePath(String resourceName) {
         return StringUtils.remove(StringUtils.remove(resourceName, "../"), "./");
     }
-
 }

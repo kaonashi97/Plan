@@ -33,5 +33,4 @@ public interface Authentication {
      * @throws WebUserAuthException If user can't be authenticated
      */
     User getUser();
-
 }

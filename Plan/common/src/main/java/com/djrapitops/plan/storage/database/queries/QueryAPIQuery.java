@@ -52,3 +52,4 @@ public class QueryAPIQuery<T> implements Query<T> {
         }
     }
 }
+

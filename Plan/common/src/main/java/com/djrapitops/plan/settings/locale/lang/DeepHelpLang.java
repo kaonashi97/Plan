@@ -64,5 +64,4 @@ public enum DeepHelpLang implements Lang {
     public String getDefault() {
         return defaultValue;
     }
-
 }

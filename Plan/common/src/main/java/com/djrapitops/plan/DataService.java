@@ -76,5 +76,4 @@ public interface DataService {
     <P, S> DataService registerSupplier(Class<S> type, Class<P> parameterType, Function<P, S> supplierWithParameter);
 
     <P, S> DataService registerDBSupplier(Class<S> type, Class<P> parameterType, Function<P, Query<S>> supplierWithParameter);
-
 }

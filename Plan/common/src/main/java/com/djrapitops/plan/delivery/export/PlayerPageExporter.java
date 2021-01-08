@@ -208,5 +208,4 @@ public class PlayerPageExporter extends FileExporter {
     private String toNonRelativePath(String resourceName) {
         return StringUtils.remove(StringUtils.remove(resourceName, "../"), "./");
     }
-
 }

@@ -57,5 +57,4 @@ public class ContainerFetchQueries {
     public static Query<PlayerContainer> fetchPlayerContainer(UUID playerUUID) {
         return new PlayerContainerQuery(playerUUID);
     }
-
 }

@@ -27,5 +27,4 @@ import com.djrapitops.plan.storage.database.SQLDB;
 public interface Query<T> {
 
     T executeQuery(SQLDB db);
-
 }

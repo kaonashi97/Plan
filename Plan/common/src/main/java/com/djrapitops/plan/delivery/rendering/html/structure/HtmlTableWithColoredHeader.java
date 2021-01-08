@@ -90,5 +90,4 @@ public class HtmlTableWithColoredHeader implements HtmlTable {
         }
         builtBody.append("</tr>");
     }
-
 }

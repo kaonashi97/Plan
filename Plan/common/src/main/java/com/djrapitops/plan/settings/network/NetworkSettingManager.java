@@ -213,5 +213,4 @@ public class NetworkSettingManager implements SubSystem {
             throw new UncheckedIOException(e);
         }
     }
-
 }

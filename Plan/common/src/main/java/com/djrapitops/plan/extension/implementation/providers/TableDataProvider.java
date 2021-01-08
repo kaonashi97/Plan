@@ -51,5 +51,4 @@ public class TableDataProvider {
         MethodWrapper<Table> methodWrapper = new MethodWrapper<>(method, Table.class);
         dataProviders.put(new DataProvider<>(information, methodWrapper));
     }
-
 }

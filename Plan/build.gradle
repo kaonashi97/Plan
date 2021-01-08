@@ -27,7 +27,7 @@ def determineBuildVersion = {
     // Magic number: git rev-list --count cdb13e3b663b18e3938ad5efc60d165fa9301f6e
     return Integer.parseInt(buildInfo.toString().replaceAll("[^0-9]", "")) - 3529
 }
-def buildVersion = determineBuildVersion()
+def buildVersion = 0//determineBuildVersion()
 
 allprojects {
     wrapper.gradleVersion = "6.2.1"

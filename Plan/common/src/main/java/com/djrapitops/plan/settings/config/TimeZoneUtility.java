@@ -42,5 +42,4 @@ public class TimeZoneUtility {
             return Optional.empty();
         }
     }
-
 }

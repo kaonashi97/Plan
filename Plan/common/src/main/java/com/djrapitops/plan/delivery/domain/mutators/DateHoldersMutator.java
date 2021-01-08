@@ -77,5 +77,4 @@ public class DateHoldersMutator<T extends DateHolder> {
         }
         return byStart;
     }
-
 }

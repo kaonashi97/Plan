@@ -74,5 +74,4 @@ public class RegisterResolver implements NoAuthResolver {
             throw new IllegalStateException(e);
         }
     }
-
 }

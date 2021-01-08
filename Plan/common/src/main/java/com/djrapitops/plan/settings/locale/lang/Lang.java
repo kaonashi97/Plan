@@ -26,5 +26,4 @@ public interface Lang {
     String getIdentifier();
 
     String getDefault();
-
 }

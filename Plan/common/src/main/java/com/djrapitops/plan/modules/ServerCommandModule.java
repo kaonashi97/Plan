@@ -29,5 +29,4 @@ public class ServerCommandModule {
     String provideMainCommandName() {
         return "plan";
     }
-
 }

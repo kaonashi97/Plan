@@ -79,5 +79,4 @@ public class PassBruteForceGuard {
         public void resetAttemptCount(String accessor) {
         }
     }
-
 }

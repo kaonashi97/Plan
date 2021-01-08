@@ -52,5 +52,4 @@ public class CachingSupplier<T> implements Supplier<T> {
         }
         return cachedValue;
     }
-
 }

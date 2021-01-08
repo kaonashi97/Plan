@@ -25,5 +25,4 @@ public class PassEncryptException extends IllegalArgumentException {
     public PassEncryptException(String s, Throwable throwable) {
         super(s, throwable);
     }
-
 }

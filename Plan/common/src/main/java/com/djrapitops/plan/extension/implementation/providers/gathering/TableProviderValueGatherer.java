@@ -121,5 +121,4 @@ class TableProviderValueGatherer {
             throw new DataExtensionMethodCallException(e, pluginName, method);
         }
     }
-
 }

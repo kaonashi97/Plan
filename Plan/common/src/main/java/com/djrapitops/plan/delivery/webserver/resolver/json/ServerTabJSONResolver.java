@@ -60,5 +60,4 @@ public class ServerTabJSONResolver<T> implements Resolver {
         UUID serverUUID = identifiers.getServerUUID(request); // Can throw BadRequestException
         return Optional.of(JSONCache.getOrCache(dataID, serverUUID, () -> jsonCreator.apply(serverUUID)));
     }
-
 }

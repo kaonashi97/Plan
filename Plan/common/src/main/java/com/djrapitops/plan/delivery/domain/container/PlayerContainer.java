@@ -45,5 +45,4 @@ public class PlayerContainer extends DynamicDataContainer {
     public boolean playedBetween(long after, long before) {
         return SessionsMutator.forContainer(this).playedBetween(after, before);
     }
-
 }

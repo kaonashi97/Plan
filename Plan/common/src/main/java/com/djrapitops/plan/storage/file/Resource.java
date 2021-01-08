@@ -84,5 +84,4 @@ public interface Resource {
     static boolean isTextResource(String resourceName) {
         return StringUtils.endsWithAny(resourceName, ".html", ".js", ".css", ".yml", ".txt");
     }
-
 }

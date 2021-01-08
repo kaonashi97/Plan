@@ -275,5 +275,4 @@ public class DataUtilityCommands {
                 locale.getString(CommandLang.INGAME_DEATHS, sessionsMutator.toDeathCount());
         sender.send(sender.getFormatter().table(table, ": "));
     }
-
 }

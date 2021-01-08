@@ -86,5 +86,4 @@ public class APFModule {
     RunnableFactory provideRunnableFactory(IPlugin plugin) {
         return plugin.getRunnableFactory();
     }
-
 }

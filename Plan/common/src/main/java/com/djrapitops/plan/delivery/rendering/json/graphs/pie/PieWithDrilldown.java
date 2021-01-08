@@ -28,5 +28,4 @@ public abstract class PieWithDrilldown extends Pie {
     protected PieWithDrilldown(List<PieSlice> slices) {
         super(slices);
     }
-
 }

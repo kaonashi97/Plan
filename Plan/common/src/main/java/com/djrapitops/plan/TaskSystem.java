@@ -57,5 +57,4 @@ public class TaskSystem implements SubSystem {
     public static abstract class Task extends AbsRunnable {
         public abstract void register(RunnableFactory runnableFactory);
     }
-
 }

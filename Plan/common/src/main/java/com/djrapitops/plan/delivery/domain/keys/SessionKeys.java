@@ -62,5 +62,4 @@ public class SessionKeys {
     private SessionKeys() {
         /* Static variable class */
     }
-
 }

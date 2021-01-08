@@ -309,5 +309,4 @@ public class PlayerJSONCreator {
             return Lists.map(geoInfo, i -> new ConnectionInfo(i.getGeolocation(), dateFormatter.apply(i.getDate())));
         }
     }
-
 }

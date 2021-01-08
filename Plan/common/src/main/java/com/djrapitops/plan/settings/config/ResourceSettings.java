@@ -52,5 +52,4 @@ public class ResourceSettings {
             return false;
         }
     }
-
 }

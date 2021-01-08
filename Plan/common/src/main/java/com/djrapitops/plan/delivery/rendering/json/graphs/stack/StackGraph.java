@@ -38,5 +38,4 @@ public class StackGraph {
     public StackDataSet[] getDataSets() {
         return dataSets;
     }
-
 }

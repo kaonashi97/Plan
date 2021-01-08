@@ -117,5 +117,4 @@ public class Server implements Comparable<Server> {
     public boolean isNotProxy() {
         return !isProxy();
     }
-
 }

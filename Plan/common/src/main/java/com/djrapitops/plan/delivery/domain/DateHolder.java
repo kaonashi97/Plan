@@ -29,5 +29,4 @@ public interface DateHolder {
      * @return Epoch ms - milliseconds passed since January 1st 1970.
      */
     long getDate();
-
 }

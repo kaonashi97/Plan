@@ -42,5 +42,4 @@ public class TimeSettings {
     private TimeSettings() {
         /* static variable class */
     }
-
 }

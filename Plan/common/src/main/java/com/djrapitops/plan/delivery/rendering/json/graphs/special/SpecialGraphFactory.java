@@ -52,5 +52,4 @@ public class SpecialGraphFactory {
     public WorldMap worldMap(Map<String, Integer> geolocationCounts) {
         return new WorldMap(geolocationCounts);
     }
-
 }

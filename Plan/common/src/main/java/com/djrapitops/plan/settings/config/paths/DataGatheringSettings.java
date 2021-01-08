@@ -36,5 +36,4 @@ public class DataGatheringSettings {
     private DataGatheringSettings() {
         /* static variable class */
     }
-
 }

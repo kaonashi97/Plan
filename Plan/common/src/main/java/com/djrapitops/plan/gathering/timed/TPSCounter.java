@@ -62,5 +62,4 @@ public abstract class TPSCounter extends TaskSystem.Task {
     }
 
     public abstract void pulse();
-
 }

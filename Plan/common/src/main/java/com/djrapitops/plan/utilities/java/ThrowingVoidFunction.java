@@ -26,5 +26,4 @@ package com.djrapitops.plan.utilities.java;
 public interface ThrowingVoidFunction<T extends Throwable> {
 
     void apply() throws T;
-
 }

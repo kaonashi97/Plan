@@ -137,5 +137,4 @@ public class Contributors {
             return String.CASE_INSENSITIVE_ORDER.compare(this.name, o.name);
         }
     }
-
 }

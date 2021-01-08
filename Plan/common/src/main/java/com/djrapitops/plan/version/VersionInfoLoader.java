@@ -77,5 +77,4 @@ public class VersionInfoLoader {
         }
         return Optional.of(parts);
     }
-
 }

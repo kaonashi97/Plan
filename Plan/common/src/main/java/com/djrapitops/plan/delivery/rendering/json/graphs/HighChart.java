@@ -24,5 +24,4 @@ package com.djrapitops.plan.delivery.rendering.json.graphs;
 public interface HighChart {
 
     String toHighChartsSeries();
-
 }

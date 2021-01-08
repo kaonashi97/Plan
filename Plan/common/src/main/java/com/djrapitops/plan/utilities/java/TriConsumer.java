@@ -27,5 +27,4 @@ package com.djrapitops.plan.utilities.java;
 public interface TriConsumer<T, V, K> {
 
     void accept(T t, V v, K k);
-
 }

@@ -26,5 +26,4 @@ package com.djrapitops.plan.utilities.java;
 public interface ThrowingSupplier<T, K extends Throwable> {
 
     T get() throws K;
-
 }

@@ -36,5 +36,4 @@ public interface SubSystem {
      * Performs disable actions for the subsystem
      */
     void disable();
-
 }

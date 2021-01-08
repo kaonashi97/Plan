@@ -139,5 +139,4 @@ public class SystemUsageBuffer {
             runnableFactory.create(null, this).runTaskTimerAsynchronously(delay, period);
         }
     }
-
 }

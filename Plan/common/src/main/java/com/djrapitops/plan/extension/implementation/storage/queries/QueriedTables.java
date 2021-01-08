@@ -97,5 +97,4 @@ public class QueriedTables {
 
         return new TabInformation(tabName, tabIcon, tabOrder, tabPriority);
     }
-
 }

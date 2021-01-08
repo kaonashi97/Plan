@@ -229,5 +229,4 @@ public enum HtmlLang implements Lang {
     public String getDefault() {
         return defaultValue;
     }
-
 }

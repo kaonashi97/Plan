@@ -85,5 +85,4 @@ public class LocaleFileWriter {
         }
         return b.toString();
     }
-
 }

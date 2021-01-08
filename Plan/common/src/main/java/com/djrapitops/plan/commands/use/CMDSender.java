@@ -65,5 +65,4 @@ public interface CMDSender {
     }
 
     ChatFormatter getFormatter();
-
 }

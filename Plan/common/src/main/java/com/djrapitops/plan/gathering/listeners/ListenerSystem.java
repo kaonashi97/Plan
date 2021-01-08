@@ -36,5 +36,4 @@ public abstract class ListenerSystem implements SubSystem {
     protected abstract void unregisterListeners();
 
     public abstract void callEnableEvent(PlanPlugin plugin);
-
 }

@@ -40,5 +40,4 @@ public interface ProxySuperClassBindingModule {
 
     @Binds
     ServerSensor<?> bindServerSensor(ServerSensor<Object> sensor);
-
 }

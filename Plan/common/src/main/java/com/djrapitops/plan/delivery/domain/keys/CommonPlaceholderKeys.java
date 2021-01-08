@@ -58,5 +58,4 @@ class CommonPlaceholderKeys {
     private CommonPlaceholderKeys() {
         /* static variable class */
     }
-
 }

@@ -31,5 +31,4 @@ public class TPSComparator implements Comparator<TPS> {
     public int compare(TPS o1, TPS o2) {
         return Long.compare(o1.getDate(), o2.getDate());
     }
-
 }

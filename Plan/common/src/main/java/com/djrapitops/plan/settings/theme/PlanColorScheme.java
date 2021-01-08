@@ -45,5 +45,4 @@ public class PlanColorScheme extends ColorScheme {
             return new PlanColorScheme("§2", "§7", "§f");
         }
     }
-
 }

@@ -30,5 +30,4 @@ public interface Executable {
     static Executable empty() {
         return i -> true;
     }
-
 }

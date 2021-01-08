@@ -94,5 +94,4 @@ public class MutatorFunctions {
     private MutatorFunctions() {
         // Static method class.
     }
-
 }

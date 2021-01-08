@@ -48,5 +48,4 @@ public interface PlaceholderModule {
     @Binds
     @IntoSet
     Placeholders bindWorldTimePlaceHolders(WorldTimePlaceHolders placeholders);
-
 }

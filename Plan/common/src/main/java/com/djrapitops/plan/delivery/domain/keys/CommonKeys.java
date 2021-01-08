@@ -61,5 +61,4 @@ public class CommonKeys {
     public static final Key<PlayersMutator> PLAYERS_MUTATOR = new Key<>(PlayersMutator.class, "PLAYERS_MUTATOR");
 
     public static final Key<TreeMap<Long, Map<String, Set<UUID>>>> ACTIVITY_DATA = new Key<>(new Type<TreeMap<Long, Map<String, Set<UUID>>>>() {}, "ACTIVITY_DATA");
-
 }

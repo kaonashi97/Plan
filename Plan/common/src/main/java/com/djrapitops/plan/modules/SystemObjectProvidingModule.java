@@ -95,5 +95,4 @@ public class SystemObjectProvidingModule {
     DataService provideDataService(DataSvc dataService) {
         return dataService;
     }
-
 }

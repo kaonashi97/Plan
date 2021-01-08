@@ -57,5 +57,4 @@ public interface SubcommandBuilder {
     SubcommandBuilder onTabComplete(BiFunction<CMDSender, Arguments, List<String>> resolver);
 
     Subcommand build();
-
 }

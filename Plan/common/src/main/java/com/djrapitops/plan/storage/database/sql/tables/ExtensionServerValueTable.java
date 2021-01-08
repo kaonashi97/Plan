@@ -57,5 +57,4 @@ public class ExtensionServerValueTable {
                 .foreignKey(PROVIDER_ID, ExtensionProviderTable.TABLE_NAME, ExtensionProviderTable.ID)
                 .build();
     }
-
 }

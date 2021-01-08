@@ -44,5 +44,4 @@ public interface ServerLoader {
      * @throws com.djrapitops.plan.exceptions.EnableException When the saving fails
      */
     void save(Server information);
-
 }

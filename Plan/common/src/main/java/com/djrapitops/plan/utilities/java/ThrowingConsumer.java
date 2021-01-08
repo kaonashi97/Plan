@@ -26,5 +26,4 @@ package com.djrapitops.plan.utilities.java;
 public interface ThrowingConsumer<T, K extends Throwable> {
 
     void accept(T consume) throws K;
-
 }

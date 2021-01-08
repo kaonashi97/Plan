@@ -77,5 +77,4 @@ public class SystemUsage {
         File file = new File(new File("").getAbsolutePath());
         return file.getUsableSpace() / 1000000L;
     }
-
 }

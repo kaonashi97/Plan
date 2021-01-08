@@ -51,5 +51,4 @@ public enum MethodType {
 
         throw new IllegalArgumentException(method.getDeclaringClass() + " method " + method.getName() + " had invalid parameters.");
     }
-
 }

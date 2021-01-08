@@ -49,5 +49,4 @@ public interface Geolocator {
             return Optional.empty();
         }
     }
-
 }

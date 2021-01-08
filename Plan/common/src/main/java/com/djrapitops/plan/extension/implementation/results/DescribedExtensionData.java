@@ -29,5 +29,4 @@ public interface DescribedExtensionData {
      * @return a {@link ExtensionDescriptive}.
      */
     ExtensionDescriptive getDescriptive();
-
 }

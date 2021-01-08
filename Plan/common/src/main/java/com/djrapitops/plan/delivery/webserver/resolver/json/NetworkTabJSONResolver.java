@@ -55,5 +55,4 @@ public class NetworkTabJSONResolver<T> implements Resolver {
     private Response getResponse() {
         return JSONCache.getOrCache(dataID, jsonCreator);
     }
-
 }

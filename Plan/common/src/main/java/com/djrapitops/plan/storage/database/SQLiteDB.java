@@ -214,7 +214,5 @@ public class SQLiteDB extends SQLDB {
                     runnableFactory, logger, errorLogger1
             );
         }
-
     }
-
 }
