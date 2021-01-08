@@ -77,9 +77,8 @@ public class NukkitAFKListener implements Listener {
                 AFK_TRACKER.hasIgnorePermission(uuid);
                 ignorePermissionInfo.put(uuid, true);
                 return;
-            } else {
-                ignorePermissionInfo.put(uuid, false);
             }
+            ignorePermissionInfo.put(uuid, false);
 
             AFK_TRACKER.performedAction(uuid, time);
         } catch (Exception e) {

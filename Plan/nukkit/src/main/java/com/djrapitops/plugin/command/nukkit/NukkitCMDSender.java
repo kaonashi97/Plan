@@ -66,9 +66,8 @@ public class NukkitCMDSender implements Sender {
     public SenderType getSenderType() {
         if (cs.isPlayer()) {
             return SenderType.PLAYER;
-        } else {
-            return SenderType.CONSOLE;
         }
+        return SenderType.CONSOLE;
     }
 
     @Override
