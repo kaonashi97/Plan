@@ -50,9 +50,8 @@ public class BukkitCommand implements CommandExecutor, TabCompleter {
     private CMDSender getSender(CommandSender sender) {
         if (sender instanceof Player) {
             return new BukkitPlayerCMDSender((Player) sender);
-        } else {
-            return new BukkitCMDSender(sender);
         }
+        return new BukkitCMDSender(sender);
     }
 
     @Override
