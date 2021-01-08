@@ -86,5 +86,4 @@ public class SpongeGMChangeListener {
         Optional<Session> cachedSession = SessionCache.getCachedSession(uuid);
         cachedSession.ifPresent(session -> session.changeState(worldName, gameMode, time));
     }
-
 }

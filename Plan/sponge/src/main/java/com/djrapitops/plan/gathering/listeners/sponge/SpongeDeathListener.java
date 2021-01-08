@@ -146,5 +146,4 @@ public class SpongeDeathListener {
                 ? new PlayerKillProcessor(player.getUniqueId(), time, victimUUID, projectileName)
                 : new MobKillProcessor(player.getUniqueId());
     }
-
 }

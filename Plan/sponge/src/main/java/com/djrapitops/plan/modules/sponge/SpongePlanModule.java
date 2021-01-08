@@ -31,5 +31,4 @@ public interface SpongePlanModule {
 
     @Binds
     PlanPlugin bindPlanPlugin(PlanSponge plugin);
-
 }

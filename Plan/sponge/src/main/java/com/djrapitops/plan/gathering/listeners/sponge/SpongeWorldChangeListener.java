@@ -94,5 +94,4 @@ public class SpongeWorldChangeListener {
         Optional<GameMode> gameMode = player.getGameModeData().get(Keys.GAME_MODE);
         return gameMode.map(gm -> gm.getName().toUpperCase()).orElse("ADVENTURE");
     }
-
 }
