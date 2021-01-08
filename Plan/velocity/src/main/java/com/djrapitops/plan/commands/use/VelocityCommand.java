@@ -61,9 +61,8 @@ public class VelocityCommand implements Command {
     private CMDSender getSender(CommandSource source) {
         if (source instanceof Player) {
             return new VelocityPlayerCMDSender((Player) source);
-        } else {
-            return new VelocityCMDSender(source);
         }
+        return new VelocityCMDSender(source);
     }
 
     @Override
