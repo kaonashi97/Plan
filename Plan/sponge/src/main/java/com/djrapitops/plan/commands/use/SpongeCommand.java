@@ -71,9 +71,8 @@ public class SpongeCommand implements CommandCallable {
     private CMDSender getSender(CommandSource source) {
         if (source instanceof Player || source instanceof RconSource) {
             return new SpongePlayerCMDSender(source);
-        } else {
-            return new SpongeCMDSender(source);
         }
+        return new SpongeCMDSender(source);
     }
 
     @Override
