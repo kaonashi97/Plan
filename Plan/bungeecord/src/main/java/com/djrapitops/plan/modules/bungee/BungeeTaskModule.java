@@ -67,5 +67,4 @@ public interface BungeeTaskModule {
     @Binds
     @IntoSet
     TaskSystem.Task bindDiskTask(SystemUsageBuffer.DiskTask diskTask);
-
 }

@@ -32,5 +32,4 @@ public class RedisCheck {
     public static boolean isClassAvailable() {
         return Check.isAvailable("com.imaginarycode.minecraft.redisbungee.RedisBungeeAPI");
     }
-
 }

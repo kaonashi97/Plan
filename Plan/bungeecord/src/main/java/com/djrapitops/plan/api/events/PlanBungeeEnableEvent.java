@@ -42,5 +42,4 @@ public class PlanBungeeEnableEvent extends Event {
     public boolean isPlanSystemEnabled() {
         return enabled;
     }
-
 }

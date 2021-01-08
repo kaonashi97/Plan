@@ -31,5 +31,4 @@ public interface BungeePlanModule {
 
     @Binds
     PlanPlugin bindPlanPlugin(PlanBungee plugin);
-
 }
