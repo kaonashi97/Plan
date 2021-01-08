@@ -66,5 +66,4 @@ class VelocityPingCounterTest {
         counter.run();
         assertTrue(counter.playerHistory.isEmpty());
     }
-
 }

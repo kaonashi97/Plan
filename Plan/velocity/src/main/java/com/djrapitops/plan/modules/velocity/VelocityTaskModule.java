@@ -67,5 +67,4 @@ public interface VelocityTaskModule {
     @Binds
     @IntoSet
     TaskSystem.Task bindDiskTask(SystemUsageBuffer.DiskTask diskTask);
-
 }

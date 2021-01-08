@@ -38,5 +38,4 @@ public class VelocityServerPropertiesModule {
     ServerProperties provideServerProperties(PlanVelocity plugin, PlanConfig config) {
         return new VelocityServerProperties(plugin.getProxy(), config);
     }
-
 }

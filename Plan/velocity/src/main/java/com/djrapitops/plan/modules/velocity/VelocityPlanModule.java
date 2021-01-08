@@ -31,5 +31,4 @@ public interface VelocityPlanModule {
 
     @Binds
     PlanPlugin providePlanPlugin(PlanVelocity plugin);
-
 }

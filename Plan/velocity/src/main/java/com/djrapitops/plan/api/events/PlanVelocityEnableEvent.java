@@ -41,5 +41,4 @@ public class PlanVelocityEnableEvent {
     public boolean isPlanSystemEnabled() {
         return enabled;
     }
-
 }

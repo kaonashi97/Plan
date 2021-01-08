@@ -29,5 +29,4 @@ public class VelocityCommandModule {
     String provideMainCommandName() {
         return "planproxy";
     }
-
 }
