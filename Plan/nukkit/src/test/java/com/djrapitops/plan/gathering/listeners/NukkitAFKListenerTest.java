@@ -99,5 +99,4 @@ class NukkitAFKListenerTest {
         when(player.hasPermission(anyString())).thenReturn(false);
         return player;
     }
-
 }

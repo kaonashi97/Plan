@@ -35,5 +35,4 @@ public class NukkitServerProperties extends ServerProperties {
                 server.getMaxPlayers()
         );
     }
-
 }

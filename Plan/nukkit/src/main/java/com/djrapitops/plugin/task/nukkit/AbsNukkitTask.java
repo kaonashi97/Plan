@@ -53,5 +53,4 @@ public class AbsNukkitTask implements PluginTask {
     public void cancel() {
         task.cancel();
     }
-
 }

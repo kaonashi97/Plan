@@ -73,5 +73,4 @@ public interface NukkitTaskModule {
     @Binds
     @IntoSet
     TaskSystem.Task bindShutdownHookRegistration(ShutdownHook.Registrar registrar);
-
 }

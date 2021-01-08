@@ -111,5 +111,4 @@ public class NukkitAFKListener implements Listener {
     public void onLeave(PlayerQuitEvent event) {
         ignorePermissionInfo.remove(event.getPlayer().getUniqueId());
     }
-
 }

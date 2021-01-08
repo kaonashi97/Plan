@@ -31,5 +31,4 @@ public interface NukkitPlanModule {
 
     @Binds
     PlanPlugin bindPlanPlugin(PlanNukkit plugin);
-
 }
