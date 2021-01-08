@@ -67,18 +67,16 @@ public class Locale extends HashMap<Lang, Message> {
         Message storedValue = super.get(key);
         if (key instanceof Lang && storedValue == null) {
             return new Message(((Lang) key).getDefault());
-        } else {
-            return storedValue;
         }
+        return storedValue;
     }
 
     public Optional<Message> getNonDefault(Object key) {
         Message storedValue = super.get(key);
         if (key instanceof Lang && storedValue == null) {
             return Optional.empty();
-        } else {
-            return Optional.of(storedValue);
         }
+        return Optional.of(storedValue);
     }
 
     public String getString(Lang key) {
