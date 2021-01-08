@@ -172,9 +172,8 @@ public class ResponseResolver {
                 if (!user.isPresent()) {
                     if (webServer.get().isUsingHTTPS()) {
                         throw new WebUserAuthException(FailReason.NO_USER_PRESENT);
-                    } else {
-                        return responseFactory.forbidden403();
                     }
+                    return responseFactory.forbidden403();
                 }
 
                 if (resolver.canAccess(request)) {

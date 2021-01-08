@@ -158,9 +158,8 @@ public class ResourceSvc implements ResourceService {
         Optional<Resource> customizedResource = files.getCustomizableResource(fileName);
         if (customizedResource.isPresent()) {
             return readCustomized(customizedResource.get());
-        } else {
-            return writeCustomized(fileName, source);
         }
+        return writeCustomized(fileName, source);
     }
 
     public WebResource readCustomized(Resource customizedResource) throws IOException {

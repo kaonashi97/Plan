@@ -159,8 +159,7 @@ public class TableContainer {
                     "<table class=\"table table-bordered table-striped table-hover " +
                     jqueryDatatable +
                     " dataTable\">";
-        } else {
-            return "<div class=\"scrollbar\"><table class=\"table table-striped\">";
         }
+        return "<div class=\"scrollbar\"><table class=\"table table-striped\">";
     }
 }

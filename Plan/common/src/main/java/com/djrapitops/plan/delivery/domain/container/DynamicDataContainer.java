@@ -62,18 +62,16 @@ public class DynamicDataContainer implements DataContainer {
         Optional<T> raw = rawDataContainer.getValue(key);
         if (raw.isPresent()) {
             return raw;
-        } else {
-            return supplierDataContainer.getValue(key);
         }
+        return supplierDataContainer.getValue(key);
     }
 
     @Override
     public <T> T getUnsafe(Key<T> key) {
         if (rawDataContainer.supports(key)) {
             return rawDataContainer.getUnsafe(key);
-        } else {
-            return supplierDataContainer.getUnsafe(key);
         }
+        return supplierDataContainer.getUnsafe(key);
     }
 
     @Override

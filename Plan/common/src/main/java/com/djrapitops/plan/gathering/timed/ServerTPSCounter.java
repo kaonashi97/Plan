@@ -118,12 +118,10 @@ public class ServerTPSCounter<W> extends TPSCounter {
     public Optional<Double> pulseTPS(long time) {
         if (noDirectTPS) {
             return indirectTPS.pulse(time);
-        } else {
-            if (directTPS.add(time, serverSensor.getTPS())) {
-                return Optional.of(directTPS.getAverageAndReset(time));
-            } else {
-                return Optional.empty();
-            }
         }
+        if (directTPS.add(time, serverSensor.getTPS())) {
+            return Optional.of(directTPS.getAverageAndReset(time));
+        }
+        return Optional.empty();
     }
 }

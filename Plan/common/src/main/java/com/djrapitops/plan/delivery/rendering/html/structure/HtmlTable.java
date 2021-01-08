@@ -31,9 +31,8 @@ public interface HtmlTable {
     static HtmlTable fromExtensionTable(Table table, Color tableColor) {
         if (table.getRows().size() > 50) {
             return new DynamicHtmlTable(table);
-        } else {
-            return new HtmlTableWithColoredHeader(table, tableColor);
         }
+        return new HtmlTableWithColoredHeader(table, tableColor);
     }
 
     static Header[] mapToHeaders(Table table) {

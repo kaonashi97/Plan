@@ -90,9 +90,8 @@ public final class URIPath {
         int nextSlash = leftover.indexOf('/');
         if (nextSlash == -1) {
             return Optional.of(leftover);
-        } else {
-            return Optional.of(leftover.substring(0, nextSlash));
         }
+        return Optional.of(leftover.substring(0, nextSlash));
     }
 
     public boolean endsWith(String suffix) {

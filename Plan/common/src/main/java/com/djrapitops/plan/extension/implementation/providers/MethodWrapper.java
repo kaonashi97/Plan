@@ -49,9 +49,8 @@ public class MethodWrapper<T> {
         } catch (InvocationTargetException notReadyToBeCalled) {
             if (notReadyToBeCalled.getCause() instanceof NotReadyException) {
                 return null; // Data or API not available to make the call.
-            } else {
-                throw new IllegalArgumentException(method.getDeclaringClass() + " method " + method.getName() + " could not be called: " + notReadyToBeCalled.getMessage(), notReadyToBeCalled);
             }
+            throw new IllegalArgumentException(method.getDeclaringClass() + " method " + method.getName() + " could not be called: " + notReadyToBeCalled.getMessage(), notReadyToBeCalled);
         } catch (IllegalAccessException e) {
             throw new IllegalArgumentException(method.getDeclaringClass() + " method " + method.getName() + " could not be called: " + e.getMessage(), e);
         }

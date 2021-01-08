@@ -76,9 +76,8 @@ public class GeoLite2Geolocator implements Geolocator {
         if (geolocationDB.exists()) {
             if (geolocationDB.lastModified() >= System.currentTimeMillis() - TimeUnit.DAYS.toMillis(7L)) {
                 return; // Database is new enough
-            } else {
-                Files.delete(geolocationDB.toPath()); // Delete old data according to restriction 3. in EULA
             }
+            Files.delete(geolocationDB.toPath()); // Delete old data according to restriction 3. in EULA
         }
 
         downloadDatabase();

@@ -68,8 +68,7 @@ public class NewerConfigQuery extends QueryStatement<Optional<Config>> {
             try (ConfigReader reader = new ConfigReader(new Scanner(set.getString(CONFIG_CONTENT)))) {
                 return Optional.of(reader.read());
             }
-        } else {
-            return Optional.empty();
         }
+        return Optional.empty();
     }
 }

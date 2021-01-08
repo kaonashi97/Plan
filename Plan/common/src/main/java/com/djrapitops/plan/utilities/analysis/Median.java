@@ -52,9 +52,8 @@ public class Median<T extends Number & Comparable<? super T>> {
         }
         if (size % 2 == 0) {
             return calculateEven();
-        } else {
-            return calculateOdd();
         }
+        return calculateOdd();
     }
 
     private double calculateEven() {

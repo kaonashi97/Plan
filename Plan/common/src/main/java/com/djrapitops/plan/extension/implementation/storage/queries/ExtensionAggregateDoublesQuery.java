@@ -177,8 +177,7 @@ public class ExtensionAggregateDoublesQuery implements Query<Map<Integer, Extens
             Family iconFamily = Family.getByName(set.getString("tab_icon_family")).orElse(Family.SOLID);
             Color iconColor = Color.getByName(set.getString("tab_icon_color")).orElse(Color.NONE);
             return new Icon(iconFamily, iconName.get(), iconColor);
-        } else {
-            return TabInformation.defaultIcon();
         }
+        return TabInformation.defaultIcon();
     }
 }

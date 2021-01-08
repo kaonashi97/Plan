@@ -157,9 +157,8 @@ public class ConfigReader implements Closeable {
     private ConfigNode handleMultiline(String line) {
         if (line.startsWith("- ")) {
             return handleListCase(line);
-        } else {
-            return handleMultilineString(line);
         }
+        return handleMultilineString(line);
     }
 
     private void handleCommentLine(String line) {

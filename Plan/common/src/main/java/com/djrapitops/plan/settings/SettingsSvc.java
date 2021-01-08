@@ -59,10 +59,9 @@ public class SettingsSvc implements SettingsService {
         Optional<ConfigNode> node = config.getNode(pluginPath);
         if (node.isPresent()) {
             return node.get().getString();
-        } else {
-            set(pluginPath, defaultValue);
-            return config.getString(pluginPath);
         }
+        set(pluginPath, defaultValue);
+        return config.getString(pluginPath);
     }
 
     public <T> void set(String pluginPath, Supplier<T> defaultValue) {
@@ -81,10 +80,9 @@ public class SettingsSvc implements SettingsService {
         Optional<ConfigNode> node = config.getNode(pluginPath);
         if (node.isPresent()) {
             return node.get().getInteger();
-        } else {
-            set(pluginPath, defaultValue);
-            return config.getInteger(pluginPath);
         }
+        set(pluginPath, defaultValue);
+        return config.getInteger(pluginPath);
     }
 
     @Override
@@ -93,10 +91,9 @@ public class SettingsSvc implements SettingsService {
         Optional<ConfigNode> node = config.getNode(pluginPath);
         if (node.isPresent()) {
             return node.get().getStringList();
-        } else {
-            set(pluginPath, defaultValue);
-            return config.getStringList(pluginPath);
         }
+        set(pluginPath, defaultValue);
+        return config.getStringList(pluginPath);
     }
 
     private String getPluginPath(String path) {

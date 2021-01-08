@@ -48,9 +48,8 @@ public class ExtensionTableRowValueLengthPatch extends Patch {
     private int columnVarcharLength(String table, String column) {
         if (dbType == DBType.MYSQL) {
             return query(MySQLSchemaQueries.columnVarcharLength(table, column));
-        } else {
-            return query(H2SchemaQueries.columnVarcharLength(table, column));
         }
+        return query(H2SchemaQueries.columnVarcharLength(table, column));
     }
 
     @Override

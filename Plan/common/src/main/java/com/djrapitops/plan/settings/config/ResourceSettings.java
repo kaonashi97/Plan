@@ -41,15 +41,14 @@ public class ResourceSettings {
 
         if (pluginCustomization.contains(fileNameNonPath)) {
             return pluginCustomization.getBoolean(fileNameNonPath);
-        } else {
-            pluginCustomization.set(fileNameNonPath, false);
-            try {
-                pluginCustomization.sort();
-                pluginCustomization.save();
-            } catch (IOException e) {
-                throw new UncheckedIOException("Could not save config.yml: " + e.getMessage(), e);
-            }
-            return false;
         }
+        pluginCustomization.set(fileNameNonPath, false);
+        try {
+            pluginCustomization.sort();
+            pluginCustomization.save();
+        } catch (IOException e) {
+            throw new UncheckedIOException("Could not save config.yml: " + e.getMessage(), e);
+        }
+        return false;
     }
 }

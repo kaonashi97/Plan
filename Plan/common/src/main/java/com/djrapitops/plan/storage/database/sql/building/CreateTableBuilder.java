@@ -133,8 +133,7 @@ public class CreateTableBuilder {
         Verify.isTrue(columnCount > 0, () -> new IllegalStateException("No columns specified for statement '" + columns.toString() + "..'"));
         if (constraintCount > 0) {
             return columns.toString() + ',' + keyConstraints.toString() + ')';
-        } else {
-            return columns.toString() + ')';
         }
+        return columns.toString() + ')';
     }
 }

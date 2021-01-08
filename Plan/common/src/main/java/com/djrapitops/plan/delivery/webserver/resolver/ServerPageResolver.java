@@ -84,10 +84,9 @@ public class ServerPageResolver implements Resolver {
         if (toNetworkPage) {
             if (request.getPath().getPart(0).map("network"::equals).orElse(false)) {
                 return Optional.of(responseFactory.networkPageResponse());
-            } else {
-                // Accessing /server/Server <Bungee ID> which should be redirected to /network
-                return redirectToCurrentServer();
             }
+            // Accessing /server/Server <Bungee ID> which should be redirected to /network
+            return redirectToCurrentServer();
         }
         return Optional.of(responseFactory.serverPageResponse(serverUUID));
     }

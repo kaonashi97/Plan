@@ -74,9 +74,8 @@ public class ConfigNode {
 
         if (leftover.isEmpty()) {
             return Optional.ofNullable(childNodes.get(lookingFor));
-        } else {
-            return getNode(lookingFor).flatMap(child -> child.getNode(leftover));
         }
+        return getNode(lookingFor).flatMap(child -> child.getNode(leftover));
     }
 
     private String[] splitPathInTwo(String path) {

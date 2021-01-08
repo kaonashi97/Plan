@@ -58,10 +58,9 @@ public abstract class ExecStatement implements Executable {
     protected boolean callExecute(PreparedStatement statement) throws SQLException {
         if (sql.startsWith("UPDATE") || sql.startsWith("INSERT") || sql.startsWith("DELETE") || sql.startsWith("REPLACE")) {
             return statement.executeUpdate() > 0;
-        } else {
-            statement.execute();
-            return false;
         }
+        statement.execute();
+        return false;
     }
 
     public abstract void prepare(PreparedStatement statement) throws SQLException;
