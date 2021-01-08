@@ -54,9 +54,8 @@ public class BungeeCommand extends Command implements TabExecutor {
     private CMDSender getSender(CommandSender sender) {
         if (sender instanceof ProxiedPlayer) {
             return new BungeePlayerCMDSender((ProxiedPlayer) sender);
-        } else {
-            return new BungeeCMDSender(sender);
         }
+        return new BungeeCMDSender(sender);
     }
 
     @Override
