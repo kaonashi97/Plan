@@ -154,4 +154,3 @@ public class DeathEventListener implements Listener {
                 : new MobKillProcessor(player.getUniqueId());
     }
 }
-

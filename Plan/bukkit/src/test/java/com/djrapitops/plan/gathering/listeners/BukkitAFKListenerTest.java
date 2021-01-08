@@ -99,5 +99,4 @@ class BukkitAFKListenerTest {
         when(player.hasPermission(anyString())).thenReturn(false);
         return player;
     }
-
 }

@@ -73,5 +73,4 @@ public interface BukkitTaskModule {
     @Binds
     @IntoSet
     TaskSystem.Task bindShutdownHookRegistration(ShutdownHook.Registrar registrar);
-
 }

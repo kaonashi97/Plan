@@ -35,5 +35,4 @@ public class BukkitServerProperties extends ServerProperties {
                 server.getMaxPlayers()
         );
     }
-
 }
