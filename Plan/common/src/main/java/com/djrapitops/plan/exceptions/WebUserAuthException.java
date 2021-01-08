@@ -26,6 +26,8 @@ import com.djrapitops.plan.exceptions.connection.WebException;
  */
 public class WebUserAuthException extends WebException {
 
+    private static final long serialVersionUID = 1L;
+    
     private final FailReason failReason;
 
     public WebUserAuthException(FailReason failReason) {

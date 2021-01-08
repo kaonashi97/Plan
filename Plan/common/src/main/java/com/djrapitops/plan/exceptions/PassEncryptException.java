@@ -18,6 +18,8 @@ package com.djrapitops.plan.exceptions;
 
 public class PassEncryptException extends IllegalArgumentException {
 
+    private static final long serialVersionUID = 1L;
+
     public PassEncryptException(String s) {
         super(s);
     }

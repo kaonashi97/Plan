@@ -20,6 +20,8 @@ import com.djrapitops.plan.utilities.logging.ErrorContext;
 
 public class FatalDBException extends DBOpException {
 
+    private static final long serialVersionUID = 1L;
+
     public FatalDBException(String message) {
         super(message);
     }

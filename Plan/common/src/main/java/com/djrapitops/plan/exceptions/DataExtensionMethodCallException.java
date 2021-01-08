@@ -27,6 +27,8 @@ import java.util.Optional;
  */
 public class DataExtensionMethodCallException extends IllegalStateException {
 
+    private static final long serialVersionUID = 1L;
+    
     private final String pluginName;
     // Non serializable field due to Method not being serializable.
     private final transient MethodWrapper<?> method;

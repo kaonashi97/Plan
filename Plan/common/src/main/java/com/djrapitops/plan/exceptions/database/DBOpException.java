@@ -29,6 +29,8 @@ import java.util.Optional;
  */
 public class DBOpException extends IllegalStateException implements ExceptionWithContext {
 
+    private static final long serialVersionUID = 1L;
+    
     private final ErrorContext context;
 
     public DBOpException(String message) {

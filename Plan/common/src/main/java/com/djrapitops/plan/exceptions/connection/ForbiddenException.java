@@ -22,6 +22,9 @@ package com.djrapitops.plan.exceptions.connection;
  * @author Rsl1122
  */
 public class ForbiddenException extends WebException {
+
+    private static final long serialVersionUID = 1L;
+
     public ForbiddenException(String url) {
         super("Forbidden: " + url);
     }

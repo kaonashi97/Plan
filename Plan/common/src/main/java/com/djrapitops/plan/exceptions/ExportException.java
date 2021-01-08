@@ -23,6 +23,8 @@ package com.djrapitops.plan.exceptions;
  */
 public class ExportException extends Exception {
 
+    private static final long serialVersionUID = 1L;
+
     public ExportException(String message, Throwable cause) {
         super(message, cause);
     }

@@ -23,6 +23,8 @@ package com.djrapitops.plan.exceptions.connection;
  */
 public class WebException extends IllegalStateException {
 
+    private static final long serialVersionUID = 1L;
+
     public WebException() {
     }
 

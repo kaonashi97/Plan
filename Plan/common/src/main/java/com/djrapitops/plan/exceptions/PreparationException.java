@@ -23,6 +23,8 @@ package com.djrapitops.plan.exceptions;
  */
 public class PreparationException extends IllegalStateException {
 
+    private static final long serialVersionUID = 1L;
+
     public PreparationException(String s) {
         super(s);
     }

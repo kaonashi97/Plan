@@ -23,6 +23,8 @@ package com.djrapitops.plan.exceptions;
  */
 public class EnableException extends IllegalStateException {
 
+    private static final long serialVersionUID = 1L;
+
     public EnableException(String message, Throwable cause) {
         super(message, cause);
     }
