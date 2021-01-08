@@ -55,6 +55,7 @@ subprojects {
     apply plugin: "net.ltgt.apt"      // Annotation processing plugin
     apply plugin: "net.ltgt.apt-idea" // Annotation processing IntelliJ IDEA configuration plugin
     apply plugin: "com.github.johnrengelman.shadow"
+    apply plugin: "net.ltgt.apt-eclipse"
 
     // Report plugins
     apply plugin: "checkstyle"
@@ -155,6 +156,10 @@ subprojects {
     }
     artifacts {
         testArtifacts testJar
+    }
+    
+    compileJava {
+        options.annotationProcessorGeneratedSourcesDirectory = file("${projectDir}/src/main/generated")
     }
 
     test {
